@@ -57,11 +57,9 @@ public class ArrayCreationLab {
 //        }
         //gets food inputs
         for (int i = 0; i < FavFoods.length; i++) {
-            for (int J = 1; J < FavFoods.length+1; J++){
-                System.out.print("Enter food " + J + ": ");
+                System.out.print("Enter food: ");
                 String userfood = input.nextLine();
                 FavFoods[i] = userfood;
-            }
         }
 
         // Prints food array
